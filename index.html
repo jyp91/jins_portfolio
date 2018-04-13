@@ -1,436 +1,603 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-  <head>
+<head>
 
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Welcome to Jin's portfolio page!</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Welcome to Jin's Portfolio</title>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+</head>
 
-  </head>
+<body id="top">
 
-  <body id="page-top">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Welcom to Jin's Portfolio!!</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="header-logo">
+            <!--<a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>-->
         </div>
-      </div>
-    </nav>
 
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <!-- <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt=""> -->
-        <h1 class="text-uppercase mb-0">Welcome to my portfolio!</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Welcome to my portfolio page! Below you will find different projects that I have created during my time at the General Assembly. Each project is unique, use different skills and modeling techniques that I have learned.
-          Please scroll down and take a look at my portfolio. Also, please visit my <a href="https://www.linkedin.com/in/jin-park-2795ba104/"><font color="blue">LinkedIn</font></a> to learn more about me and <a href="https://github.com/jyp91?tab=repositories"><font color="black">GitHub</font></a> to see my other personal projects.</h2>
-      </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/capstone.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project5.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project4.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project3.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project2.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/project1.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Hello, my name is Jin Park. I am a learner, builder, risk taker, and a data scientist who is passionate and committed to data analytics to solve problems with a creative and persistent mindset to unveil the hidden knowledge from the data. I embrace the unknown, the risk, the challenge, and learning new skills which enables me to develop insightful analytics with an artistic approach. I am currently searching for an exciting role with the potential for growth where I can utilize my skill sets to provide detailed and insightful data analysis.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">What led me to data science? <br/>
-              I have 4 years of experience in the retail environment which made myself to become a self-starter, goal-oriented, always willing to learn and adapt fast to new environments. Since retail business is heavily focused in inventory and merchandising, I became very interested and fascinated by what the data science can do to improve the business decisions, which it led me to obtain a Big Data certificate and pursuing further knowledge in data science by enrolling at General Assembly.
-              I firmly believe that the future for all businesses will rely on data technologies to make executive decisions to improve businesses and maintain healthy relationships with its customers by understanding what the customers want by analyzing the data. <br/>
-              <br/> Thank you for viewing my portfolio page and if you have any questions in regards to my portfolio or other questions, please contact me through email below or visit my <a href="https://www.linkedin.com/in/jin-park-2795ba104/"><font color="blue">LinkedIn</font></a> page. Thank you again!!</p>
-          </div>
-        </div>
-      <!--  <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            To see my resume click here!
-          </a> -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br>
-              <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">Greater Atlanta Area <br/>
-            +1(770)366-6372<br/>
-            jyp01@outlook.com</p>
-          </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <!-- logos that I don't need
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li> -->
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/jin-park-2795ba104/">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/jyp91">
-                  <i class="fa fa-fw fa-github"></i>
-                </a>
-              </li>
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Portfolio</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
-          </div>
-          <div class="col-md-4">
-            <h4 class="text-uppercase mb-4">To see more jin's project</h4>
-            <p class="lead mb-0"> Please visit my Github page
-              <a href="https://github.com/jyp91?tab=repositories">to see other projects.</a>.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+        </nav>
 
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright 2013-2018 &copy;Blackrock Digital LLC</small>
-      </div>
-    </div>
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
+    </header> <!-- end s-header -->
 
-    <!-- Portfolio Modals -->
 
-    <!-- Portfolio capstone -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Capstone Project:</h2>
-              <h3 class="text-secondary text-uppercase mb-0">Predicting Amazon Customer Review Ratings Using Sentiment Analysis.</h3>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/capstone.png" alt="">
-              <p class="mb-5"> This project uses RandomForest Classifier, Logistic Regression, and Neural Networks by using Keras to predict Amazon.com customers book review ratings that ranges from 1 to 5 as a target and use sentiment analysis from customers reviews for features.<br/>
-                  <a href="https://github.com/jyp91/project_6_capstone">See Project.</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Welcome to my portfolio!!</h3>
+
+                <h1>
+                    Hello, my name is Jin Park. <br>
+                    I am a recent graduate from General Assembly, <br>
+                    Data Scientist located in Greater Atlanta Area.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Portfolio 5-->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project 5:</h2>
-              <h3 class="text-secondary text-uppercase mb-0">Mobile Madness</h3>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/project5.png" alt="">
-              <p class="mb-5">This group project/hackathon focuses on briefly analyzing characteristics of customer mobile churn features. With found features, the group used a random-forest classifier to predict the churn rate.<br/>
-              <a href="https://github.com/jyp91/Project_5_mobile-madness">See Project.</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.linkedin.com/in/jin-park-2795ba104/"><i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/jyp91"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+        </ul>
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <p class="lead">I am a learner, builder, risk taker, and a data scientist who is passionate and committed to data analytics to solve problems with a creative and persistent mindset to unveil the hidden knowledge from the data. I embrace the unknown, the risk, the challenge, and learning new skills which enables me to develop insightful analytics with an artistic approach.</p>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Portfolio 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project 4:</h2>
-              <h3 class="text-secondary text-uppercase mb-0">West Nile Virus</h3>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/project4.png" alt="">
-              <p class="mb-5">This project was a group Kaggle Competition. As a group, we were able to predict the West Nile Virus location by using Decision Tree Classifier with Grid-Search method to optimize the model accuracy.<br/>
-              <a href="https://github.com/jyp91/project_4_west_nile_viruse">See Project.</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>What led me to data science? </h3>
+
+                <p>The 4 years’ experience I have in the retail industry taught me to become a self-starter, goal oriented, willing to learn and adapt quickly to new environments. Since the retail industry is heavily focused on inventory and merchandising, I became very interested and fascinated by the capabilities data science can have to improve business decisions.</p>
+
+                <p>
+                This fascination led me to obtaining a Big Data certificate and pursuing further knowledge in data science by enrolling in General Assembly. I firmly believe that the future for all businesses will rely on data technologies to make executive decisions to improve businesses and maintain healthy relationships with its customers by analyzing the data to understand the customer needs.
+                </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Portfolio 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project 3:</h2>
-              <h3 class="text-secondary text-uppercase mb-0">Web Scraping Reddit.com</h3>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/project3.png" alt="">
-              <p class="mb-5">Reddit is a very popular American social news aggregation, web content rating, and discussion website. This project focuses on gathering data from Reddit.com by building a web-scraper using Python and BeautifulSoup library. With gathered data, I have used logistic regression, random-forest classification with grid-search model optimization to increase the accuracy of my model.<br/>
-              <a href="https://github.com/jyp91/project_3_web_scraping_reddit">See Project.</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+            <div class="col-six tab-full right">
+                <h3>Skills</h3>
+                <ul class="skills">
+                    <li>
+                    <strong>Python</strong>
+                    </li>
+                    <li>
+                    <strong>SQL</strong>
+                    </li>
+                    <li>
+                    <strong>Machine Learning</strong>
+                    </li>
+                    <li>
+                    <strong>Natural Language Processing</strong>
+                    </li>
+                    <li>
+                    <strong>Webscraping</strong>
+                    </li>
+                    <li>
+                    <strong>Data Analysis</strong>
+                    </li>
+                    <li>
+                    <strong>Data Visualization</strong>
+                    </li>
+                    <li>
+                    <strong>Microsoft Office</strong>
+                    </li>
+                    <li>
+                    <strong>Bilingual (Korean)</strong>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Portfolio 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project 2:</h2>
-              <h2 class="text-secondary text-uppercase mb-0">Iowa Liquor Market Research & New Store Locations</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/project2.png" alt="">
-              <p class="mb-5">Iowa Liquor Project focuses on forecasting the top 10 location to open a new liquor store by the city, and zip-code. Also, predicting next years quarter sale by using linear regression modeling technique with cross-validation to optimize the model accuracy.<br/>
-              <a href="https://github.com/jyp91/project_2_iowa_liquore">See Project.</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="jin_park_resume.pdf" class="btn btn--primary full-width">Download My Resume</a>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        </div> <!-- end about-content buttons -->
+    </section> <!-- end about -->
 
-    <!-- Portfolio 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project 1:</h2>
-              <h2 class="text-secondary text-uppercase mb-0">Statistical Summaries, and Inference for Standardized Testing</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/project1.png" alt="">
-              <p class="mb-5">This project focuses on basic data cleaning, EDA, creating visualizations and performing statistical analysis with given SAT and ACT scores data by state, participation rates, for the graduating class of 2017 by PrepScholar.<br/>
-              <a href="https://github.com/jyp91/Project_1_standardize_test">See Project.</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>See My Latest Projects.</h1>
+
+                <p class="lead">Below you will find various projects that I have created during my time at General Assembly. Each project is unique, and highlights the skills and modeling techniques that I have learned.</p>
             </div>
-          </div>
         </div>
-      </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/capstone.jpg" class="thumb-link" title="Amazon Books" data-size="1050x700">
+                                <img src="images/portfolio/capstone.jpg"
+                                     srcset="images/portfolio/capstone.jpg 1x, images/portfolio/capstone.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                The Capstone Project
+                            </h3>
+                            <p class="item-folio__cat">
+                                Predicting Amazon's Product Rating Using Amazon Customers Sentiment Analysis.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/project_6_capstone" class="item-folio__project-link" title="Capstone Project Link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>This project is a supervised training that uses RandomForest Classifier, Logistic Regression, and Neural Networks by using Keras to predict Amazon.com customers book review ratings that range from 1 to 5. The ratings are used as a target variable and sentiment analysis that ranges from negative to positive from Amazon's customer reviews as features.
+                            <a href="https://github.com/jyp91/project_6_capstone">See project</a></p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/mobile_madness.jpeg" class="thumb-link" title="Mobile Madness" data-size="1050x700">
+                                <img src="images/portfolio/mobile_madness.jpeg"
+                                     srcset="images/portfolio/mobile_madness.jpeg 1x, images/portfolio/mobile_madness.jpeg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Mobile Madness
+                            </h3>
+                            <p class="item-folio__cat">
+                                A group Hackathon, found features that cause customers to churn and predicted churn rate by using RandomForest Classifier.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/Project_5_mobile-madness" class="item-folio__project-link" title="Mobile Madness Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>This project/hackathon focuses on briefly analyzing characteristics of customer mobile churn features. With found features, the group used a random-forest classifier to predict the churn rate.
+                            <a href="https://github.com/jyp91/Project_5_mobile-madness">See project</a></p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/west_nile.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/west_nile.jpg"
+                                     srcset="images/portfolio/west_nile.jpg 1x, images/portfolio/west_nile.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                West Nile Virus Kaggle Competition
+                            </h3>
+                            <p class="item-folio__cat">
+                                A group Kaggle Competition, predicted West Nile Virus location by using Decision Tree Classifier with Grid-Search.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/project_4_west_nile_viruse" class="item-folio__project-link" title="West Nile Virus Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>This project is a group Kaggle Competition. As a group, we were able to predict the West Nile Virus location by using Decision Tree Classifier with Grid-Search method to optimize the model accuracy.
+                            <a href="https://github.com/jyp91/project_4_west_nile_viruse">See project</a></p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/reddit.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/reddit.jpg"
+                                     srcset="images/portfolio/reddit.jpg 1x, images/portfolio/reddit.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Web Scraping Reddit.com
+                            </h3>
+                            <p class="item-folio__cat">
+                                Built a web scraper by using Python BeautifulSoup to gather data and Logistic Regression, RandomForest Classifier, Grid-Search to predict the user engagement and confusion matrix to check models accuracy.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/project_3_web_scraping_reddit" class="item-folio__project-link" title="Reddit Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Reddit is a very popular American social news aggregation, web content rating, and discussion website. This project focuses on gathering data from Reddit.com by building a web-scraper using Python and BeautifulSoup library. With gathered data, I have used logistic regression, random-forest classification with grid-search model optimization to increase the accuracy of my model.
+                            <a href="https://github.com/jyp91/project_3_web_scraping_reddit">See project</a></p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/iowa.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/iowa.jpg"
+                                     srcset="images/portfolio/iowa.jpg 1x, images/portfolio/iowa.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Iowa Liquor Market Research & New Store Locations
+                            </h3>
+                            <p class="item-folio__cat">
+                                Using Logistic Regression with Cross Validation, predicted next quarter sales and top 10 locations to open a new store.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/project_2_iowa_liquore" class="item-folio__project-link" title="Iowa Liquor Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>This project focuses on forecasting the top 10 location to open a new liquor store by the city, and zip-code. Also, predicting next years quarter sale by using linear regression modeling technique with cross-validation to optimize the model accuracy.
+                            <a href="https://github.com/jyp91/project_2_iowa_liquore">See project</a></p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/test.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/test.jpg"
+                                     srcset="images/portfolio/test.jpg 1x, images/portfolio/test.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Statistical Summaries, and Inference for Standardized Testing
+                            </h3>
+                            <p class="item-folio__cat">
+                                This project focuses on the basic statistical analysis with visualizations and A/B testing from PrepScholar SAT and ACT dataset.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/Project_1_standardize_test" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>This project focuses on understanding basic concepts of data science process by doing data cleaning, EDA, creating visualizations by plotting histograms and scatter plots and performing basic A/B Testing statistical analysis with given SAT and ACT scores data by state, for the graduating class of 2017 by PrepScholar.
+                            <a href="https://github.com/jyp91/Project_1_standardize_test">See project</a></p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/digit.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/digit.jpg"
+                                     srcset="images/portfolio/digit.jpg 1x, images/portfolio/digit.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Digit Recognizer Kaggle Competition
+                            </h3>
+                            <p class="item-folio__cat">
+                                A Kaggle competition, using TensorFlow and Keras to correctly identify digits from a dataset of tens of thousands of handwritten images by building a neural network.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/digit_recognizer" class="item-folio__project-link" title="Digit Recognizer Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>A kaggle competition, using tensorflow and keras to correctly identify digits from a dataset of tens of thousands of handwritten images by building a neural network.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/twitter.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/twitter.jpg"
+                                     srcset="images/portfolio/twitter.jpg 1x, images/portfolio/twitter.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Twitter Sentiment Analysis
+                            </h3>
+                            <p class="item-folio__cat">
+                                This is a ongoing personal project to analyze Twitter user sentiment level by web scraping Twitter.com
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/twitter_sentiment_analysis" class="item-folio__project-link" title="Twitter Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>This is a ongoing personal project to analyze Twitter user sentiment level by web scraping Twitter.com</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/deloitte.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/deloitte.jpg"
+                                     srcset="images/portfolio/deloitte.jpg 1x, images/portfolio/deloitte.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Deloitte Hackathon
+                            </h3>
+                            <p class="item-folio__cat">
+                                Group Hackathon that focuses on finding features and correlations that associates with the recent life expectancy trends with using various public datasets such as CDC.
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/jyp91/deloitte_hackathon" class="item-folio__project-link" title="Deloitte Hackathon link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Group Hackathon that focuses on finding features and correlations that associates with the recent life expectancy trends with using various public datasets such as CDC.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Thank you.</h1>
+
+                <p class="lead">Thank you for taking the time to view my portfolio page. Please feel free to contact me through the email below if you have any questions relating to my portfolio page, or visit my Linkedin page. Thank you again!</p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Mobile: +1(770)366-6372
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>jyp91@outlook.com
+                </p>
+
+                <h4 class="h06">Location</h4>
+                <p>
+                Greater Atlanta Area
+                </p>
+            </div>
+            <div class="col-full">
+                <ul class="footer-social">
+                    <li><a href="https://www.linkedin.com/in/jin-park-2795ba104/">
+                        <i class="im im-linkedin" aria-hidden="true"></i>
+                        <span>Linkedin</span>
+                    </a></li>
+                    <li><a href="https://github.com/jyp91?tab=repositories">
+                        <i class="im im-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row footer-bottom">
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Hola 2017</span>
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+                    <span>Edited By Jin Park 2018</span>
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div> <!-- end footer-bottom -->
+    </footer> <!-- end footer -->
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-
-  </body>
+</body>
 
 </html>
